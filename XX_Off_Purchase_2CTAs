@@ -1,0 +1,55 @@
+<style>
+	#XX_Off_Purchase {
+		width:100%;
+		height:100%;
+		font-size:12px;
+		color:#000000;
+		font-family: futura-pt, futura;
+		text-align:center;
+		margin-top:15px;
+		position:relative;
+	}
+	#XX_Off_Purchase-PercentOff {
+		font-size:5em;
+		font-weight:bold;
+		line-height:1
+	}
+	#XX_Off_Purchase-DiscountType {
+		font-size:1.75em;
+		font-weight:900;
+		letter-spacing:.075em;
+	}
+	#XX_Off_Purchase-DiscountDetails {
+		font-size:1.3em;
+		line-height:2
+	}
+	#XX_Off_Purchase-CTA-wrapper {
+		width:100%;
+	}
+	.XX_Off_Purchase-CTA {
+		color:#FFF;
+		background-color:#000;
+		display:inline-block;
+		width: calc(50% - 40px);
+		margin: 20px 5px;
+		vertical-align: top;
+		padding:8px 10px;
+		font-size:1.05em;
+		font-weight:600;
+		letter-spacing:.1em;
+	}
+
+</style>	
+<div id="XX_Off_Purchase">
+	<div id="XX_Off_Purchase-PercentOff">XX% OFF</div>
+	<div id="XX_Off_Purchase-DiscountType">YOUR PURCHASE</div>
+	<div id="XX_Off_Purchase-DiscountDetails">Excludes clearance. Online only. Code: <b>BRFSHOP</b></div>
+	<div id="XX_Off_Purchase-CTA-wrapper">
+		<div class="XX_Off_Purchase-CTA">
+			SHOP MEN
+		</div>
+		<div class="XX_Off_Purchase-CTA">
+			SHOP WOMEN
+		</div>
+	</div>
+</div>
