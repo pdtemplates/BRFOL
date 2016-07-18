@@ -6,7 +6,7 @@
 		color:#000000;
 		font-family: futura-pt, futura;
 		text-align:center;
-		margin-top:15px;
+		margin-top:10px;
 		position:relative;
 	}
 	#XX_Off_Purchase-PercentOff {
@@ -21,17 +21,17 @@
 	}
 	#XX_Off_Purchase-DiscountDetails {
 		font-size:1.3em;
-		line-height:2
 	}
 	#XX_Off_Purchase-CTA-wrapper {
 		width:100%;
+		height:100%;
 	}
 	.XX_Off_Purchase-CTA {
 		color:#FFF;
 		background-color:#000;
 		display:inline-block;
 		width: calc(50% - 40px);
-		margin: 20px 5px;
+		margin: 15px 5px;
 		vertical-align: top;
 		padding:8px 10px;
 		font-size:1.05em;
