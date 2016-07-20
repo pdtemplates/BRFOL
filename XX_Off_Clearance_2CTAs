@@ -27,26 +27,27 @@
 		line-height:2
 	}
 	#XX_Off_Purchase-HeaderCTA {
-		font-size:1.2em;
+		font-size:1.3em;
 		letter-spacing:.075em;
 		font-weight:bold;
 		line-height:1
-
 	}
 	#XX_Off_Purchase-CTA-wrapper {
 		width:100%;
 	}
 	.XX_Off_Purchase-CTA {
-		color:#FFF;
 		background-color:#000;
 		display:inline-block;
 		width: calc(50% - 45px);
 		margin: 15px 4px;
 		vertical-align: top;
 		padding:7px 10px;
+		letter-spacing:.1em;
+	}
+	.XX_Off_Purchase-CTA a {
 		font-size:1.1em;
 		font-weight:600;
-		letter-spacing:.1em;
+		color:#FFFFFF;
 	}
 
 </style>	
@@ -57,10 +58,12 @@
 	<div id="XX_Off_Purchase-HeaderCTA">SHOP CLEARANCE</div>
 	<div id="XX_Off_Purchase-CTA-wrapper">
 		<div class="XX_Off_Purchase-CTA">
-			MEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050464" onclick="return wcdLib.contentItemLinkWithFacet(this,'','PD_1_M_BRFS');" tid="PD_1_M_BRFS">MEN
+			</a>
 		</div>
 		<div class="XX_Off_Purchase-CTA">
-			WOMEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050468" onclick="return wcdLib.contentItemLinkWithFacet(this,'','PD_1_W_BRFS');" tid="PD_1_W_BRFS">WOMEN
+			</a>
 		</div>
 	</div>
 </div>
