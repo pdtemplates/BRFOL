@@ -2,13 +2,20 @@
 	#XX_Off_Purchase {
 		width:100%;
 		height:100%;
-		font-size:12px;
 		color:#000000;
 		font-family: futura-pt, futura;
 		text-align:center;
-		margin-top:10px;
 		position:relative;
 	}
+#XX_Off_Inner-wrapper { 
+width:98%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+}
 	#XX_Off_Purchase-PercentOff {
 		color:#d63a2b;
 		font-size:3.25em;
@@ -24,13 +31,15 @@
 	}
 	#XX_Off_Purchase-DiscountDetails {
 		font-size:1.25em;
-		line-height:2
+		line-height:2;
+color:#000;
 	}
 	#XX_Off_Purchase-HeaderCTA {
 		font-size:1.3em;
 		letter-spacing:.075em;
 		font-weight:bold;
-		line-height:1
+		line-height:1;
+color:#000;
 	}
 	#XX_Off_Purchase-CTA-wrapper {
 		width:100%;
@@ -38,32 +47,45 @@
 	.XX_Off_Purchase-CTA {
 		background-color:#000;
 		display:inline-block;
-		width: calc(50% - 45px);
-		margin: 15px 4px;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
 		vertical-align: top;
 		padding:7px 10px;
 		letter-spacing:.1em;
+cursor:pointer;
 	}
 	.XX_Off_Purchase-CTA a {
 		font-size:1.1em;
 		font-weight:600;
 		color:#FFFFFF;
+text-decoration:none;
+cursor:pointer;
+width:100%;
+display:block;
 	}
+a.pd_div-wrapper {
+text-decoration:none;
+cursor:pointer;
+}
 
 </style>	
 <div id="XX_Off_Purchase">
+<div id="XX_Off_Inner-wrapper">
+    <a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/division.do?cid=1044622">
 	<div id="XX_Off_Purchase-PercentOff">EXTRA 30% OFF</div>
 	<div id="XX_Off_Purchase-DiscountType">WOMEN'S CLEARANCE</div>
 	<div id="XX_Off_Purchase-DiscountDetails">Online only. Code: <b>CLEARANCE</b></div>
 	<div id="XX_Off_Purchase-HeaderCTA">SHOP CLEARANCE</div>
+</a>
 	<div id="XX_Off_Purchase-CTA-wrapper">
 		<div class="XX_Off_Purchase-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050464" onclick="return wcdLib.contentItemLinkWithFacet(this,'','PD_1_M_BRFS');" tid="PD_1_M_BRFS">MEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050468" mlink="PD_1_W_BRFS">WOMEN
 			</a>
 		</div>
 		<div class="XX_Off_Purchase-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050468" onclick="return wcdLib.contentItemLinkWithFacet(this,'','PD_1_W_BRFS');" tid="PD_1_W_BRFS">WOMEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050473" mlink="PD_1_P_BRFS">PETITES
 			</a>
 		</div>
 	</div>
+</div>
 </div>
