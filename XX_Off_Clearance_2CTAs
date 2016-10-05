@@ -73,17 +73,17 @@ cursor:pointer;
 <div id="XX_Off_Inner-wrapper">
     <a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/division.do?cid=1044622">
 	<div id="XX_Off_Purchase-PercentOff">EXTRA 30% OFF</div>
-	<div id="XX_Off_Purchase-DiscountType">WOMEN'S CLEARANCE</div>
+	<div id="XX_Off_Purchase-DiscountType">CLEARANCE</div>
 	<div id="XX_Off_Purchase-DiscountDetails">Online only. Code: <b>CLEARANCE</b></div>
 	<div id="XX_Off_Purchase-HeaderCTA">SHOP CLEARANCE</div>
 </a>
 	<div id="XX_Off_Purchase-CTA-wrapper">
 		<div class="XX_Off_Purchase-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050468" mlink="PD_1_W_BRFS">WOMEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050464" mlink="PD_1_M_BRFS">MEN
 			</a>
 		</div>
 		<div class="XX_Off_Purchase-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050473" mlink="PD_1_P_BRFS">PETITES
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1050468" mlink="PD_1_W_BRFS">WOMEN
 			</a>
 		</div>
 	</div>
