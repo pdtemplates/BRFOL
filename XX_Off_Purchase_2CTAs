@@ -2,54 +2,90 @@
 	#XX_Off_Purchase {
 		width:100%;
 		height:100%;
-		font-size:12px;
 		color:#000000;
 		font-family: futura-pt, futura;
 		text-align:center;
-		margin-top:10px;
 		position:relative;
 	}
+#XX_Off_Inner-wrapper { 
+width:98%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+}
 	#XX_Off_Purchase-PercentOff {
-		font-size:5em;
+		color:#000000;
+		font-size:3.25em;
 		font-weight:bold;
 		line-height:1
 	}
 	#XX_Off_Purchase-DiscountType {
+		color:#000000;
 		font-size:1.75em;
 		font-weight:900;
 		letter-spacing:.075em;
+		line-height:1
 	}
 	#XX_Off_Purchase-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+color:#000;
+	}
+	#XX_Off_Purchase-HeaderCTA {
 		font-size:1.3em;
+		letter-spacing:.075em;
+		font-weight:bold;
+		line-height:1;
+color:#000;
 	}
 	#XX_Off_Purchase-CTA-wrapper {
 		width:100%;
-		height:100%;
 	}
 	.XX_Off_Purchase-CTA {
-		color:#FFF;
 		background-color:#000;
 		display:inline-block;
-		width: calc(50% - 40px);
-		margin: 15px 5px;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
 		vertical-align: top;
-		padding:8px 10px;
-		font-size:1.05em;
-		font-weight:600;
+		padding:7px 10px;
 		letter-spacing:.1em;
+cursor:pointer;
 	}
+	.XX_Off_Purchase-CTA a {
+		font-size:1.1em;
+		font-weight:600;
+		color:#FFFFFF;
+text-decoration:none;
+cursor:pointer;
+width:100%;
+display:block;
+	}
+a.pd_div-wrapper {
+text-decoration:none;
+cursor:pointer;
+}
 
 </style>	
 <div id="XX_Off_Purchase">
-	<div id="XX_Off_Purchase-PercentOff">XX% OFF</div>
+<div id="XX_Off_Inner-wrapper">
+    <a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/category.do?cid=1045361">
+	<div id="XX_Off_Purchase-PercentOff">30% OFF</div>
 	<div id="XX_Off_Purchase-DiscountType">YOUR PURCHASE</div>
-	<div id="XX_Off_Purchase-DiscountDetails">Excludes clearance. Online only. Code: <b>BRFSHOP</b></div>
+	<div id="XX_Off_Purchase-DiscountDetails">Online only. Code: <b>TREAT</b></div>
+	<div id="XX_Off_Purchase-HeaderCTA">SHOP NOW</div>
+</a>
 	<div id="XX_Off_Purchase-CTA-wrapper">
 		<div class="XX_Off_Purchase-CTA">
-			SHOP MEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1045503" mlink="PD_1_M_BRFS">MEN
+			</a>
 		</div>
 		<div class="XX_Off_Purchase-CTA">
-			SHOP WOMEN
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1045361" mlink="PD_1_W_BRFS">WOMEN
+			</a>
 		</div>
 	</div>
+</div>
 </div>
