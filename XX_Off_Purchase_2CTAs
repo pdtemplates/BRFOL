@@ -18,7 +18,7 @@ transform:translate(-50%,-50%);
 }
 	#XX_Off_Purchase-PercentOff {
 		color:#000000;
-		font-size:3.25em;
+		font-size:4.25em;
 		font-weight:bold;
 		line-height:1
 	}
@@ -45,7 +45,9 @@ color:#000;
 		width:100%;
 	}
 	.XX_Off_Purchase-CTA {
-		background-color:#000;
+		background-color:#FFFFFF;
+border-style: solid;
+border-width: 0.5px;
 		display:inline-block;
 		width: calc(50% - 36px);
 		margin: 15px 4px 0 4px;
@@ -57,7 +59,7 @@ cursor:pointer;
 	.XX_Off_Purchase-CTA a {
 		font-size:1.1em;
 		font-weight:600;
-		color:#FFFFFF;
+		color:#000;
 text-decoration:none;
 cursor:pointer;
 width:100%;
@@ -75,8 +77,6 @@ cursor:pointer;
 	<div id="XX_Off_Purchase-PercentOff">30% OFF</div>
 	<div id="XX_Off_Purchase-DiscountType">YOUR PURCHASE</div>
 	<div id="XX_Off_Purchase-DiscountDetails">Online only. Code: <b>TREAT</b></div>
-	<div id="XX_Off_Purchase-HeaderCTA">SHOP NOW</div>
-</a>
 	<div id="XX_Off_Purchase-CTA-wrapper">
 		<div class="XX_Off_Purchase-CTA">
 			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1045503" mlink="PD_1_M_BRFS">MEN
