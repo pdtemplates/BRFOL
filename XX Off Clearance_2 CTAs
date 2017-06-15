@@ -46,6 +46,8 @@ color:#000;
 	}
 	.XX_Off_Purchase-CTA {
 		background-color:#000;
+		border-style: solid;
+		border-width: 0.5px;
 		display:inline-block;
 		width: calc(50% - 36px);
 		margin: 15px 4px 0 4px;
