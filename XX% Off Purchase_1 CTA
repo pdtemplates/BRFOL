@@ -47,7 +47,7 @@ color:#000;
 	.XX_Off_Purchase-CTA {
 		background-color:#FFF;
 border-style: solid;
-border-width: 1px;
+border-width: 0.5px;
 		display:inline-block;
 		width: calc(50% - 36px);
 		margin: 15px 4px 0 4px;
@@ -73,13 +73,13 @@ cursor:pointer;
 </style></undefined></undefined>	
 <div id="XX_Off_Purchase">
 <div id="XX_Off_Inner-wrapper">
-    <a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/category.do?cid=1045361">
+    <a class="pd_div-wrapper" mlink="PD_2_BRFS" href="/browse/category.do?cid=1045503">
 	<div id="XX_Off_Purchase-PercentOff">50% OFF</div>
 	<div id="XX_Off_Purchase-DiscountType">EVERYTHING FOR HIM</div>
 	<div id="XX_Off_Purchase-DiscountDetails">Excludes clearance. Ends 6/18.</div>
-	</a><div id="XX_Off_Purchase-CTA-wrapper"><a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/category.do?cid=1045361">
-		</a><div class="XX_Off_Purchase-CTA"><a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/category.do?cid=1045361">
-			</a><a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1045503" mlink="PD_1_BRFS">SHOP NOW
+	</a><div id="XX_Off_Purchase-CTA-wrapper"><a class="pd_div-wrapper" mlink="PD_2_BRFS" href="/browse/category.do?cid=1045503">
+		</a><div class="XX_Off_Purchase-CTA"><a class="pd_div-wrapper" mlink="PD_2_BRFS" href="/browse/category.do?cid=1045503">
+			</a><a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1045503" mlink="PD_2_BRFS">SHOP NOW
 			</a>
 		</div>
 	</div>
