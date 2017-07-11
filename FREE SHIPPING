@@ -1,5 +1,5 @@
 <undefined><undefined><style>
-	#XX_Off_Purchase {
+	#FREE_SHIPPING {
 		width:100%;
 		height:100%;
 		color:#000;
@@ -51,7 +51,7 @@ cursor:pointer;
 }
 
 </style></undefined></undefined>	
-<div id="XX_Off_Purchase">
+<div id="FREE_SHIPPING">
 <div id="XX_Off_Inner-wrapper">
     <a class="pd_div-wrapper" mlink="PD_2_BRFS" href="/browse/category.do?cid=1045503">
 	<div id="XX_Off_Purchase-PercentOff">FREE SHIPPING</div>
