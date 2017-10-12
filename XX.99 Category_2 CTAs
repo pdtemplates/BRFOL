@@ -1,0 +1,92 @@
+<style>
+	#XX_Off_Dual_Categories {
+		width:100%;
+		height:100%;
+		color:#fff;
+    background:#82151A;
+		font-family: futura-pt, futura;
+		text-align:center;
+		position:relative;
+	}
+#XX_Off_Dual_Categories_Inner-wrapper { 
+width:98%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+}
+	#XX_Off_Dual_Categories-DiscountType {
+		color:#fff;
+		font-size:1.75em;
+		font-weight:900;
+		letter-spacing:.075em;
+		line-height:1
+	}	
+#XX_Off_Dual_Categories-PercentOff {
+		color:#fff;
+		font-size:4.25em;
+		font-weight:bold;
+		line-height:1
+	}
+	#XX_Off_Dual_Categories-DiscountDetails {
+		font-size:1.25em;
+		line-height:2;
+color:#fff;
+	}
+	#XX_Off_Dual_Categories-HeaderCTA {
+		font-size:1.3em;
+		letter-spacing:.075em;
+		font-weight:bold;
+		line-height:1;
+color:#000;
+	}
+	#XX_Off_Dual_Categories-CTA-wrapper {
+		width:100%;
+	}
+	.XX_Off_Dual_Categories-CTA {
+		background-color:#fff;
+    border-style: solid;
+    border-width: 0.5px;
+		display:inline-block;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
+		vertical-align: top;
+		padding:7px 10px;
+		letter-spacing:.1em;
+cursor:pointer;
+	}
+	.XX_Off_Dual_Categories-CTA a {
+		font-size:1.1em;
+		font-weight:600;
+		color:#000;
+text-decoration:none;
+cursor:pointer;
+width:100%;
+display:block;
+	}
+a.pd_div-wrapper {
+text-decoration:none;
+cursor:pointer;
+}
+
+</style>	
+<div id="XX_Off_Dual_Categories">
+<div id="XX_Off_Dual_Categories_Inner-wrapper">
+    <a class="pd_div-wrapper" mlink="PD_1_BKGD_BRFS" href="/browse/category.do?cid=1087990">
+	<div id="XX_Off_Dual_Categories-DiscountType">ALL DENIM</div>
+	<div id="XX_Off_Dual_Categories-PercentOff">$39.99</div>
+	<div id="XX_Off_Dual_Categories-DiscountDetails">Online only. Excludes clearance. Ends 10/18.</div>
+	<div id="XX_Off_Dual_Categories-CTA-wrapper">
+		<div class="XX_Off_Dual_Categories-CTA">
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1088005" mlink="PD_1_M_BRFS">MEN
+			</a>
+		</div>
+		<div class="XX_Off_Dual_Categories-CTA">
+			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1087990" mlink="PD_1_W_BRFS">WOMEN
+			</a>
+		</div>
+	</div>
+</div>
+</div>
