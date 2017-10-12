@@ -80,11 +80,11 @@ cursor:pointer;
 	<div id="XX_Off_Dual_Categories-DiscountDetails">Online only. Excludes clearance. Ends 10/18.</div>
 	<div id="XX_Off_Dual_Categories-CTA-wrapper">
 		<div class="XX_Off_Dual_Categories-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1088005" mlink="PD_1_M_BRFS">MEN
+			<a href="/browse/category.do?cid=1088005" mlink="PD_1_M_BRFS">MEN
 			</a>
 		</div>
 		<div class="XX_Off_Dual_Categories-CTA">
-			<a href="http://bananarepublicfactory.gapfactory.com/browse/category.do?cid=1087990" mlink="PD_1_W_BRFS">WOMEN
+			<a href="/browse/category.do?cid=1087990" mlink="PD_1_W_BRFS">WOMEN
 			</a>
 		</div>
 	</div>
