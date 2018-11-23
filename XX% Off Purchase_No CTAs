@@ -1,0 +1,92 @@
+<undefined><undefined><style>
+	#XX_Off_Purchase {
+		width:100%;
+		height:100%;
+		color:#000000;
+background-image: linear-gradient(to right, #2e2832, #007549);
+		font-family: futura-pt, futura;
+		text-align:center;
+		position:relative;
+	}
+#XX_Off_Inner-wrapper { 
+width:98%;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+}
+	#XX_Off_Purchase-DiscountHeader {
+		color:#FFF;
+		font-size:1.75em;
+		font-weight:900;
+		letter-spacing:.05em;
+		line-height:1.25
+	}
+	#XX_Off_Purchase-PercentOff {
+		color:#FFF;
+		font-size:5.75em;
+		font-weight:bold;
+		line-height:1
+	}
+	#XX_Off_Purchase-DiscountType {
+		color:#FFF;
+		font-size:1.75em;
+		font-weight:900;
+		letter-spacing:.075em;
+		line-height:1.5
+	}
+	#XX_Off_Purchase-DiscountDetails {
+		font-size:1.25em;
+		line-height:1.25;
+color:#FFF;
+	}
+	#XX_Off_Purchase-HeaderCTA {
+		font-size:1.3em;
+		letter-spacing:.075em;
+		font-weight:bold;
+		line-height:1;
+color:#FFF;
+	}
+	#XX_Off_Purchase-CTA-wrapper {
+		width:100%;
+	}
+	.XX_Off_Purchase-CTA {
+		background-color:#FFF;
+		border-style: solid;
+		border-width: 0.5px;
+		display:inline-block;
+		width: calc(50% - 36px);
+		margin: 15px 4px 0 4px;
+		vertical-align: top;
+		padding:7px 10px;
+		letter-spacing:.1em;
+cursor:pointer;
+	}
+	.XX_Off_Purchase-CTA a {
+		font-size:1.1em;
+		font-weight:600;
+		color:#FFF;
+text-decoration:none;
+cursor:pointer;
+width:100%;
+display:block;
+	}
+a.pd_div-wrapper {
+text-decoration:none;
+cursor:pointer;
+}
+
+</style></undefined></undefined>	
+<div id="XX_Off_Purchase">
+<div id="XX_Off_Inner-wrapper">
+	<div id="XX_Off_Purchase-DiscountHeader">EXTENDED! EXTRA</div>
+	<div id="XX_Off_Purchase-PercentOff">15% OFF</div>
+	<div id="XX_Off_Purchase-DiscountType">YOUR PURCHASE</div>
+	<div id="XX_Off_Purchase-DiscountDetails">Includes clearance. Ends 11/27. Code: <b>CYBR15</b></div>
+			</a>
+		</div>
+	</div>
+</div>
+</div>
